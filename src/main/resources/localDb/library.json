@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "userId": "U001",
+      "username": "Rnt",
+      "password": "12345",
+      "borrowedBooks": [
+        {
+          "bookId": "B001",
+          "bookName": "The Hobbit",
+          "bookAuthor": "J.R.R. Tolkien",
+          "borrowed": true,
+          "borrowedByUserId": "U001",
+          "borrowDate": "2025-08-27",
+          "expectedReturnDate": "2025-09-03"
+        },
+        {
+          "bookId": "B001",
+          "bookName": "The Hobbit",
+          "bookAuthor": "J.R.R. Tolkien",
+          "borrowed": true,
+          "borrowedByUserId": "U001",
+          "borrowDate": "2025-08-28",
+          "expectedReturnDate": "2025-09-04"
+        }
+      ]
+    },
+    {
+      "userId": "U002",
+      "username": "RntAgain",
+      "password": "password",
+      "borrowedBooks": []
+    },
+    {
+      "userId": "U3",
+      "username": "Atul",
+      "password": "Atul",
+      "borrowedBooks": []
+    },
+    {
+      "userId": "U4",
+      "username": "Shree",
+      "password": "Shree",
+      "borrowedBooks": []
+    }
+  ],
+  "books": [
+    {
+      "bookId": "B001",
+      "bookName": "The Hobbit",
+      "bookAuthor": "J.R.R. Tolkien",
+      "borrowed": false
+    },
+    {
+      "bookId": "B002",
+      "bookName": "1984",
+      "bookAuthor": "George Orwell",
+      "borrowed": false
+    },
+    {
+      "bookId": "B003",
+      "bookName": "To Kill a Mockingbird",
+      "bookAuthor": "Harper Lee",
+      "borrowed": false
+    }
+  ]
+}
